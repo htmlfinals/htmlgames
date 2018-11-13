@@ -1,0 +1,233 @@
+/*css初始化*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,
+form,fieldset,legend,button,input,textarea,th,td,section,p,span,font,div{margin:0;padding:0;font-family:"Microsoft yahei";color:#333;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:"Microsoft yahei";}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color: #333;}
+a:hover{text-decoration: underline;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#000;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+
+
+.father{
+  background-color: black;
+  background-image: url(../img/z_16.gif);
+}
+.middle_t{
+  height: 650px;
+  background-color: blue;
+  background-image: url(../img/z_7.jpg);
+}
+.four{
+
+    height: 640px;
+    background-color: ;
+
+}
+.img{
+
+    background-color: lightgrey;
+    width: 480px;
+    border: 4px solid #eee;
+    padding: 2px;
+    margin: 4px;
+    height: 300px;
+    float: left;
+    transition-property:width;
+    transition-duration:0.5s;
+    transition-timing-function:linear;
+    transition-delay:0.2s;
+
+    -webkit-transition-property:width;
+    -webkit-transition-duration:0.5s;
+    -webkit-transition-timing-function:linear;
+    -webkit-transition-delay:0.2s;
+    border-radius: 15px 50px 30px;
+    }
+.img:hover
+{
+    width:200px;
+}
+#a{  background-image: url(../img/z_9.JPEG) ;}
+
+#b{  background-image: url(../img/z_10.JPEG) ;}
+
+#c{  background-image: url(../img/z_11.JPEG) ;}
+
+#d{  background-image: url(../img/z_12.JPEG) ;}
+
+#e{  background-image: url(../img/z_13.jpg) ;}
+
+#f{  background-image: url(../img/z_14.jpg) ;}
+#tit ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#EEE;
+}
+#tit li {
+  float: left;
+  width:120px;
+  margin:0 10px;
+  list-style: none;
+  font-size:20px;
+}
+#tit li a {
+    display: block;
+    color: #67727A;
+    text-align: center;
+    padding: 39px 10px 20px 2px;
+    text-decoration: none;
+}
+#tit li a:hover:not(.active) {
+    background-color: #C4C5C6;
+}
+
+.active {
+    background-color: #C4C5C6;
+}
+.ti
+{
+    text-shadow: 5px 5px 5px #1874CD;
+    color:#F0F8FF;
+    font-size:30px;
+}
+#wen{
+    font-size:20px;
+}
+  #headd{
+    font-size: 40px;
+    margin-left: 400px;
+  }
+  #mi{
+
+    height: 1220px;
+    width:1200px;
+    background-color: #F5F5F5;
+     border-radius: 0px 40px 0px 0px;
+}
+#foot{
+    background-color:#1a1a1a;
+    height: 250px;
+    border: 0px solid #BDBDBD;
+
+}
+#foot_2{
+    background-color:#101010;
+    height: 80px;
+}
+
+#logo{
+   /* background: url(./image/z_8.png) */
+    background-position: 3px 2px;
+    margin: 0px auto;
+    margin-left:1200px;
+    display: block;
+    height: 13px;
+    width: 13px;
+    background-size: inherit;
+    background-image: url(../img/z_8.png);
+    float:auto;
+}
+/*after*/
+#pie{
+    background-color:;
+    width: 1200px;
+    height: 100px;
+}
+#pie ul{
+    display: flex;
+    position: absolute;
+    width: 800px;
+    margin-left: 620px;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#pie ul li {
+    position: relative;
+    padding: 20px;
+    font-size: 24px;
+    color: #000;
+    line-height: 1;
+    transition: 0.2s all linear;
+    cursor: pointer;
+    margin-right: :100px;
+    padding: 0px 80px 20px 30px;
+    color: #36648B;
+}
+
+#pie ul li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 100%;
+    border-bottom: 4px solid #419ce6;
+    transition: 0.2s all linear;
+
+}
+
+#pie ul li:hover::before {
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition-delay: 0.1s;
+    border-bottom-color: #419ce6;
+    z-index: -1;
+}
+
+#pie ul li:hover ~ li::before {
+   left: 0;
+}
+
+
+
+#pie ul li:visited {color: #00CDCD}
+#pie ul li:hover {color: #419ce6}
+#pie ul li:active {color: #419ce6}
+#text1{
+    width: 1100px;
+    height:900px;
+    background-color: #FFFFFF;
+     border: 25px solid #EEEEEE;
+    padding: 25px;
+
+}
+.ssr{
+
+     font-size: 18px;
+}
+#s1{
+
+}
+#im1{
+    margin-left: 140px;
+}
+#im2{
+    margin-left: 280px;
+}
+#im3{
+    margin-left: 280px;
+}
+#foot_text{
+   margin-left: 200px;
+   color:#d2d2d2;
+   font-size:20px;
+}
+#foot_2_text{
+    margin-left: 400px;
+
+   color:#d2d2d2;
+   font-size:16px;
+}

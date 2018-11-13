@@ -1,0 +1,184 @@
+#tit ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#EEE;
+}
+#tit li {
+  float: left;
+  width:100px;
+  margin:0 10px;
+  list-style: none;
+}
+#tit li a {
+    display: block;
+    color: #67727A;
+    text-align: center;
+    padding: 39px 10px 20px 2px;
+    text-decoration: none;
+}
+#tit li a:hover:not(.active) {
+    background-color: #C4C5C6;
+}
+
+.active {
+    background-color: #C4C5C6;
+}
+#logo{
+  clear: both;
+
+}
+#container{
+
+}
+#header{
+  height: 220px;
+}
+#nav li{
+
+  width: 130px;
+  margin-right: 1px;
+  float:left;
+}
+#nav a{
+  font-size:16px;
+  font-family: '微软雅黑';
+  color: #01698C;
+  display: block;
+  width: 90px;
+  height: 37px;
+  text-decoration: none;
+}
+#nav a:hover{
+  padding-left: 10px;
+  color: black;
+}
+#nav ul{
+  float: right;
+}
+#main{
+
+}
+#lside{
+  height: 900px;
+  width:1814px;
+  border: 1px solid gray;
+  background: ;
+  float: left;
+}
+.subtitle{
+  height:37px;
+  background: #EEE;
+}
+.subtitle img{
+  margin: 5px 0px 0px 10px;
+  float: left;
+}
+.subtitle h5{
+  float: left;
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: 'Viner Hand ITC',sans-serif;
+}
+.subtitle h3{
+  height: 10px;
+
+}
+.four{
+  width:623px;
+  height: 405px;
+  background: #F1F3F4;
+  float: left;
+  margin: 10px ;
+}
+.four img{
+  float: left;
+  margin-left: 10px;
+  padding: 6px;
+  background: white;
+}
+.four ul{
+  float: left;
+  margin: 16px;
+}
+.four li{
+  height: 29px;
+}
+.four h2{
+  color: #3A3F4B;
+  margin: 6px 0 6px 10px;
+  font-size: 16px;
+  font-family: 'Microsoft Yahei',Simhei,sans-serif;
+}
+#rside{
+  width: 294px;
+  height: 600px;
+  float: right;
+}
+
+#art{
+  background: #EEE;
+  margin-top: 10px;
+  padding-top: 50px;
+  height: 391px;
+}
+#art a{
+  display: block;
+  height: 29px;
+  padding-left: 30px;
+  background: url(.gif);
+}
+#art a:hover{
+  color: #FF832C;
+  background: url();
+}
+#art li{
+  background: url(    gif) no-repeat;
+  padding: 0 0 0 30px;
+  height: 39px;
+}
+#team{
+  height: 600px;
+  margin-top: 1px;
+  background: blue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+#footer{
+    /*保证footer是相对于container位置绝对定位*/
+    position:relative;
+    width:100%;
+    min-height:100%;
+    /*设置padding-bottom值大于等于footer的height值，以保证main的内容能够全部显示出来而不被footer遮盖；*/
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    height:140px;   /* footer的高度一定要是固定值*/
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background: #333;
+    margin-top: 15px;
+}
+#footer li{
+  float: left;
+  margin-top: 15px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+#footer ul{
+  height: 40px;
+  background: #333;
+
+}
+#footer p{
+  margin: 10px ;
+}
