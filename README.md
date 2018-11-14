@@ -14,7 +14,7 @@
 &nbsp;&nbsp;&nbsp;**3.正文内容部分：**<br>
 &nbsp;&nbsp;&nbsp;使用了html+css，分区以及文本格式调整，分别介绍了巨头聚焦人工智能，人工智能历史，人工智能进步催化剂，认知技术四个模块，其中每个模块由标头，上面的图片和下面文字组成，每张图片均有用css实现的白色边框。<br>
 ![](https://github.com/htmlfinals/htmlgames/raw/master/img/readme2.png)  <br>
-####4.footer部分：<br>
+&nbsp;&nbsp;&nbsp;**4.footer部分：**<br>
 &nbsp;&nbsp;&nbsp;使用了html+css，介绍了团队名称，团队地址，团队队长以及团队成员等相关信息。如下图所示。<br>
 ![](https://github.com/htmlfinals/htmlgames/raw/master/img/readme3.png)  <br>
 **二、AI公司部分**<br>
